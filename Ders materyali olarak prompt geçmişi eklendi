@@ -1,0 +1,111 @@
+# Yapay Zeka ile Veri Üretimi ve Görselleştirme Süreci
+
+Bu belge, Yapay Zeka (AI) ile gerçekleştirilen veri üretimi ve görselleştirme sürecini adım adım diyalog şeklinde göstermektedir.
+
+---
+
+Öğrenci:
+
+3. hafta için bir klasör oluşturmak istiyorum. Bu klasörün içinde Python kullanarak bir veri seti üretmek istiyorum. Veri seti CSV formatında olmalı ve en az 500 satır içermeli. Ayrıca veriler normal dağılıma sahip olmalı ve en az 2 değişken bulunmalı.
+
+---
+
+Yapay Zeka (AI):
+
+İstediğiniz özelliklere uygun olarak Python ile sentetik bir veri seti oluşturabiliriz. NumPy kütüphanesi ile normal dağılım üretebilir ve Pandas ile CSV dosyası haline getirebiliriz.
+
+---
+
+Öğrenci:
+
+Veri setinin daha anlamlı olması için gerçek bir senaryoya benzetmek istiyorum. Örneğin sağlık verisi olabilir mi?
+
+---
+
+Yapay Zeka (AI):
+
+Evet, veri setini bir hastanedeki hastaların sağlık ölçümleri olarak kurgulayabiliriz. Örneğin:
+
+- KanSekeri (mg/dL)
+- Tansiyon (mmHg)
+
+Bu iki değişkeni normal dağılım ile üretebiliriz.
+
+---
+
+Öğrenci:
+
+Bu verileri üretmek için Python kodunu oluşturur musun?
+
+---
+
+Yapay Zeka (AI):
+
+NumPy kullanarak normal dağılıma sahip veri üretilebilir. Örneğin:
+
+- KanSekeri → ortalama 100, standart sapma 15  
+- Tansiyon → ortalama 120, standart sapma 10  
+
+Bu veriler Pandas DataFrame içine alınarak CSV dosyası olarak kaydedilir.
+
+---
+
+Öğrenci:
+
+Veriyi oluşturduktan sonra görselleştirmek istiyorum. Nasıl yapabilirim?
+
+---
+
+Yapay Zeka (AI):
+
+Matplotlib kütüphanesi kullanılarak:
+
+- Histogram grafikleri ile dağılım gösterilebilir  
+- Scatter plot ile iki değişken arasındaki ilişki incelenebilir  
+
+---
+
+Öğrenci:
+
+Grafiklerin neyi gösterdiğini nasıl yorumlayabilirim?
+
+---
+
+Yapay Zeka (AI):
+
+Histogram grafiklerinde:
+
+- Verilerin çan eğrisi şeklinde dağıldığı görülür (normal dağılım)
+- Ortalama etrafında yoğunlaşma olur
+
+Scatter plot grafiğinde:
+
+- İki değişken arasındaki ilişki gözlemlenebilir
+- Dağılımın yapısı veri hakkında fikir verir
+
+---
+
+Öğrenci:
+
+Bu çalışmanın genel amacı nedir?
+
+---
+
+Yapay Zeka (AI):
+
+Bu çalışmanın amacı:
+
+- Sentetik veri üretimini öğrenmek  
+- Normal dağılım kavramını uygulamak  
+- Veri görselleştirme tekniklerini kullanmak  
+
+---
+
+Sonuç:
+
+Bu süreçte Yapay Zeka kullanılarak:
+- Gerçekçi bir veri seti oluşturulmuş  
+- CSV formatında saklanmış  
+- Grafiklerle analiz edilmiştir  
+
+Bu yaklaşım, veri bilimi süreçlerinin temel adımlarını anlamak için etkili bir yöntemdir.
